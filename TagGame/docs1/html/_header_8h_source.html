@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TagGame: Исходный файл Пятнашки/Header.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">TagGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_header_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Header.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_header_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;ctime&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">using namespace </span>std;</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_game.html">   21</a></span><span class="keyword">class </span><a class="code hl_function" href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">int</span> empty_col, empty_row;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">int</span> field[4][4];</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_function" href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game</a>();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">   34</a></span>    <a class="code hl_function" href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">~Game</a>() {}</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_game.html#a0295bc451b3ae1589778757386589475">GetEmptyRow</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_game.html#a4951035540df11910dc826c3c9f0a0b2">GetEmptyCol</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_game.html#a49ded379e279ea868437560d8ac10fdb">fill</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_game.html#af53246b24f5febe8107deb5f5836b562">change</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_game.html#ac278ea9886fa6cd083ad2ea11759b1af">move</a>(<span class="keywordtype">char</span> direction);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_game.html#a706e15068ecaa2f4e57004a5e3d4c56b">isRight</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_game.html#a57d183f86badf12d5c8267ca36e3185f">isSolvable</a>(<span class="keywordtype">int</span> arr[]);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">int</span>* <a class="code hl_function" href="class_game.html#a19148f612e5265472d6796ed58a3bfa6">operator[]</a>(<span class="keywordtype">int</span> row);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keyword">friend</span> ostream&amp; <a class="code hl_friend" href="class_game.html#a449923b7a9dbce2dc6bce7e58e0c13e1">operator&lt;&lt;</a>(ostream&amp; os, <span class="keyword">const</span> <a class="code hl_class" href="class_game.html">Game</a>&amp; g);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>};</div>
+</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="foldopen" id="foldopen00097" data-start="{" data-end="};">
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="class_u_i.html">   97</a></span><span class="keyword">class </span><a class="code hl_function" href="class_u_i.html#acc721e1b347729ccad240d32dd3a4fe5">UI</a></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>{</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <a class="code hl_class" href="class_game.html">Game</a>&amp; game;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_function" href="class_u_i.html#acc721e1b347729ccad240d32dd3a4fe5">UI</a>(<a class="code hl_class" href="class_game.html">Game</a>&amp; game);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_i.html#a6dceb4c77315203f2cd106723d67e26d">start</a>();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
+</div>
+<div class="ttc" id="aclass_game_html"><div class="ttname"><a href="class_game.html">Game</a></div><div class="ttdoc">Класс, реализующий игровую логику &quot;Пятнашек&quot;.</div><div class="ttdef"><b>Определения</b> Header.h:22</div></div>
+<div class="ttc" id="aclass_game_html_a0295bc451b3ae1589778757386589475"><div class="ttname"><a href="class_game.html#a0295bc451b3ae1589778757386589475">Game::GetEmptyRow</a></div><div class="ttdeci">int GetEmptyRow() const</div><div class="ttdoc">Получить индекс строки, где находится пустая клетка.</div><div class="ttdef"><b>Определения</b> tag.cpp:15</div></div>
+<div class="ttc" id="aclass_game_html_a19148f612e5265472d6796ed58a3bfa6"><div class="ttname"><a href="class_game.html#a19148f612e5265472d6796ed58a3bfa6">Game::operator[]</a></div><div class="ttdeci">int * operator[](int row)</div><div class="ttdoc">Доступ к строке игрового поля по индексу.</div><div class="ttdef"><b>Определения</b> tag.cpp:129</div></div>
+<div class="ttc" id="aclass_game_html_a449923b7a9dbce2dc6bce7e58e0c13e1"><div class="ttname"><a href="class_game.html#a449923b7a9dbce2dc6bce7e58e0c13e1">Game::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;os, const Game &amp;g)</div><div class="ttdoc">Вывод игрового поля в поток.</div><div class="ttdef"><b>Определения</b> tag.cpp:135</div></div>
+<div class="ttc" id="aclass_game_html_a4951035540df11910dc826c3c9f0a0b2"><div class="ttname"><a href="class_game.html#a4951035540df11910dc826c3c9f0a0b2">Game::GetEmptyCol</a></div><div class="ttdeci">int GetEmptyCol() const</div><div class="ttdoc">Получить индекс столбца, где находится пустая клетка.</div><div class="ttdef"><b>Определения</b> tag.cpp:16</div></div>
+<div class="ttc" id="aclass_game_html_a49ded379e279ea868437560d8ac10fdb"><div class="ttname"><a href="class_game.html#a49ded379e279ea868437560d8ac10fdb">Game::fill</a></div><div class="ttdeci">void fill()</div><div class="ttdoc">Заполнить поле числами от 1 до 15 и одной пустой клеткой.</div><div class="ttdef"><b>Определения</b> tag.cpp:20</div></div>
+<div class="ttc" id="aclass_game_html_a57d183f86badf12d5c8267ca36e3185f"><div class="ttname"><a href="class_game.html#a57d183f86badf12d5c8267ca36e3185f">Game::isSolvable</a></div><div class="ttdeci">bool isSolvable(int arr[])</div><div class="ttdoc">Проверить, является ли текущее расположение решаемым.</div><div class="ttdef"><b>Определения</b> tag.cpp:69</div></div>
+<div class="ttc" id="aclass_game_html_a706e15068ecaa2f4e57004a5e3d4c56b"><div class="ttname"><a href="class_game.html#a706e15068ecaa2f4e57004a5e3d4c56b">Game::isRight</a></div><div class="ttdeci">bool isRight() const</div><div class="ttdoc">Проверить, собрано ли поле в правильном порядке.</div><div class="ttdef"><b>Определения</b> tag.cpp:109</div></div>
+<div class="ttc" id="aclass_game_html_ac278ea9886fa6cd083ad2ea11759b1af"><div class="ttname"><a href="class_game.html#ac278ea9886fa6cd083ad2ea11759b1af">Game::move</a></div><div class="ttdeci">bool move(char direction)</div><div class="ttdoc">Совершить ход в указанном направлении.</div><div class="ttdef"><b>Определения</b> tag.cpp:89</div></div>
+<div class="ttc" id="aclass_game_html_ad59df6562a58a614fda24622d3715b65"><div class="ttname"><a href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game::Game</a></div><div class="ttdeci">Game()</div><div class="ttdoc">Конструктор. Инициализирует и перемешивает игровое поле.</div><div class="ttdef"><b>Определения</b> tag.cpp:10</div></div>
+<div class="ttc" id="aclass_game_html_ae3d112ca6e0e55150d2fdbc704474530"><div class="ttname"><a href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">Game::~Game</a></div><div class="ttdeci">~Game()</div><div class="ttdoc">Деструктор (пустой, т.к. динамическая память не используется).</div><div class="ttdef"><b>Определения</b> Header.h:34</div></div>
+<div class="ttc" id="aclass_game_html_af53246b24f5febe8107deb5f5836b562"><div class="ttname"><a href="class_game.html#af53246b24f5febe8107deb5f5836b562">Game::change</a></div><div class="ttdeci">void change()</div><div class="ttdoc">Перемешать поле случайным образом до разрешимого состояния.</div><div class="ttdef"><b>Определения</b> tag.cpp:38</div></div>
+<div class="ttc" id="aclass_u_i_html_a6dceb4c77315203f2cd106723d67e26d"><div class="ttname"><a href="class_u_i.html#a6dceb4c77315203f2cd106723d67e26d">UI::start</a></div><div class="ttdeci">void start()</div><div class="ttdoc">Запуск игрового цикла с пользовательским вводом.</div><div class="ttdef"><b>Определения</b> UI.cpp:20</div></div>
+<div class="ttc" id="aclass_u_i_html_acc721e1b347729ccad240d32dd3a4fe5"><div class="ttname"><a href="class_u_i.html#acc721e1b347729ccad240d32dd3a4fe5">UI::UI</a></div><div class="ttdeci">UI(Game &amp;game)</div><div class="ttdoc">Конструктор, принимающий ссылку на объект Game.</div><div class="ttdef"><b>Определения</b> UI.cpp:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_b9f6919e425517e1c6bc6a3e34258244.html">Пятнашки</a></li><li class="navelem"><a href="_header_8h.html">Header.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

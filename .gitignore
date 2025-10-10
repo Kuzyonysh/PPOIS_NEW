@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+x64/
+x86/
+Debug/
+Release/
+build/
+
+# Precompiled headers
+*.pch
+*.ipch
+
+# Object and intermediate files
+*.obj
+*.log
+*.tlog
+*.pdb
+*.idb
+
+# Other binaries
+*.exe
+*.dll
+*.cache
+*.db
+

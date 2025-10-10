@@ -1,0 +1,217 @@
+\doxysection{Класс Game}
+\hypertarget{class_game}{}\label{class_game}\index{Game@{Game}}
+
+
+Класс, реализующий игровую логику "{}Пятнашек"{}.  
+
+
+
+
+{\ttfamily \#include $<$Header.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор. Инициализирует и перемешивает игровое поле. \end{DoxyCompactList}\item 
+\Hypertarget{class_game_ae3d112ca6e0e55150d2fdbc704474530}\label{class_game_ae3d112ca6e0e55150d2fdbc704474530} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Game} ()
+\begin{DoxyCompactList}\small\item\em Деструктор (пустой, т.\+к. динамическая память не используется). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a0295bc451b3ae1589778757386589475}{Get\+Empty\+Row}} () const
+\begin{DoxyCompactList}\small\item\em Получить индекс строки, где находится пустая клетка. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a4951035540df11910dc826c3c9f0a0b2}{Get\+Empty\+Col}} () const
+\begin{DoxyCompactList}\small\item\em Получить индекс столбца, где находится пустая клетка. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a49ded379e279ea868437560d8ac10fdb}{fill}} ()
+\begin{DoxyCompactList}\small\item\em Заполнить поле числами от 1 до 15 и одной пустой клеткой. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_af53246b24f5febe8107deb5f5836b562}{change}} ()
+\begin{DoxyCompactList}\small\item\em Перемешать поле случайным образом до разрешимого состояния. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_ac278ea9886fa6cd083ad2ea11759b1af}{move}} (char direction)
+\begin{DoxyCompactList}\small\item\em Совершить ход в указанном направлении. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_a706e15068ecaa2f4e57004a5e3d4c56b}{is\+Right}} () const
+\begin{DoxyCompactList}\small\item\em Проверить, собрано ли поле в правильном порядке. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_a57d183f86badf12d5c8267ca36e3185f}{is\+Solvable}} (int arr\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Проверить, является ли текущее расположение решаемым. \end{DoxyCompactList}\item 
+int \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_a19148f612e5265472d6796ed58a3bfa6}{operator\mbox{[}$\,$\mbox{]}}} (int row)
+\begin{DoxyCompactList}\small\item\em Доступ к строке игрового поля по индексу. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Друзья}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_game_a449923b7a9dbce2dc6bce7e58e0c13e1}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_game}{Game}} \&g)
+\begin{DoxyCompactList}\small\item\em Вывод игрового поля в поток. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс, реализующий игровую логику "{}Пятнашек"{}. 
+
+Класс управляет игровым полем, перемещением фишек, проверкой правильности расположения и случайным перемешиванием. 
+
+\label{doc-constructors}
+\Hypertarget{class_game_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily \label{class_game_ad59df6562a58a614fda24622d3715b65} 
+Game\+::\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор. Инициализирует и перемешивает игровое поле. 
+
+Конструктор\+: создаёт поле и перемешивает его. 
+
+\label{doc-func-members}
+\Hypertarget{class_game_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_game_af53246b24f5febe8107deb5f5836b562}\index{Game@{Game}!change@{change}}
+\index{change@{change}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{change()}{change()}}
+{\footnotesize\ttfamily \label{class_game_af53246b24f5febe8107deb5f5836b562} 
+void Game\+::change (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Перемешать поле случайным образом до разрешимого состояния. 
+
+Перемешивает поле случайным образом до тех пор, пока оно остаётся решаемым. \Hypertarget{class_game_a49ded379e279ea868437560d8ac10fdb}\index{Game@{Game}!fill@{fill}}
+\index{fill@{fill}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{fill()}{fill()}}
+{\footnotesize\ttfamily \label{class_game_a49ded379e279ea868437560d8ac10fdb} 
+void Game\+::fill (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Заполнить поле числами от 1 до 15 и одной пустой клеткой. 
+
+Заполняет поле числами от 1 до 15, последняя клетка — пустая (0). \Hypertarget{class_game_a4951035540df11910dc826c3c9f0a0b2}\index{Game@{Game}!GetEmptyCol@{GetEmptyCol}}
+\index{GetEmptyCol@{GetEmptyCol}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetEmptyCol()}{GetEmptyCol()}}
+{\footnotesize\ttfamily \label{class_game_a4951035540df11910dc826c3c9f0a0b2} 
+int Game\+::\+Get\+Empty\+Col (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Получить индекс столбца, где находится пустая клетка. 
+
+\begin{DoxyReturn}{Возвращает}
+Индекс столбца (0–3). 
+\end{DoxyReturn}
+\Hypertarget{class_game_a0295bc451b3ae1589778757386589475}\index{Game@{Game}!GetEmptyRow@{GetEmptyRow}}
+\index{GetEmptyRow@{GetEmptyRow}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetEmptyRow()}{GetEmptyRow()}}
+{\footnotesize\ttfamily \label{class_game_a0295bc451b3ae1589778757386589475} 
+int Game\+::\+Get\+Empty\+Row (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Получить индекс строки, где находится пустая клетка. 
+
+\begin{DoxyReturn}{Возвращает}
+Индекс строки (0–3). 
+\end{DoxyReturn}
+\Hypertarget{class_game_a706e15068ecaa2f4e57004a5e3d4c56b}\index{Game@{Game}!isRight@{isRight}}
+\index{isRight@{isRight}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{isRight()}{isRight()}}
+{\footnotesize\ttfamily \label{class_game_a706e15068ecaa2f4e57004a5e3d4c56b} 
+bool Game\+::is\+Right (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Проверить, собрано ли поле в правильном порядке. 
+
+Проверяет, находится ли поле в собранном состоянии.
+
+\begin{DoxyReturn}{Возвращает}
+true, если все числа стоят по порядку, иначе false. 
+\end{DoxyReturn}
+\Hypertarget{class_game_a57d183f86badf12d5c8267ca36e3185f}\index{Game@{Game}!isSolvable@{isSolvable}}
+\index{isSolvable@{isSolvable}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{isSolvable()}{isSolvable()}}
+{\footnotesize\ttfamily \label{class_game_a57d183f86badf12d5c8267ca36e3185f} 
+bool Game\+::is\+Solvable (\begin{DoxyParamCaption}\item[{int}]{arr}{\mbox{[}$\,$\mbox{]}}\end{DoxyParamCaption})}
+
+
+
+Проверить, является ли текущее расположение решаемым. 
+
+Проверяет, можно ли решить текущее расположение фишек.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em arr} & Массив из 16 элементов (игровое поле). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если комбинация решаема.
+\end{DoxyReturn}
+Алгоритм основан на подсчёте инверсий и положении пустой клетки. \Hypertarget{class_game_ac278ea9886fa6cd083ad2ea11759b1af}\index{Game@{Game}!move@{move}}
+\index{move@{move}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily \label{class_game_ac278ea9886fa6cd083ad2ea11759b1af} 
+bool Game\+::move (\begin{DoxyParamCaption}\item[{char}]{direction}{}\end{DoxyParamCaption})}
+
+
+
+Совершить ход в указанном направлении. 
+
+Совершает ход в заданном направлении, если возможно.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em direction} & Символ направления (\textquotesingle{}W\textquotesingle{}, \textquotesingle{}A\textquotesingle{}, \textquotesingle{}S\textquotesingle{}, \textquotesingle{}D\textquotesingle{} или их строчные аналоги). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если ход был выполнен; false, если ход невозможен. 
+\end{DoxyReturn}
+\Hypertarget{class_game_a19148f612e5265472d6796ed58a3bfa6}\index{Game@{Game}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{class_game_a19148f612e5265472d6796ed58a3bfa6} 
+int \texorpdfstring{$\ast$}{*} Game\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{row}{}\end{DoxyParamCaption})}
+
+
+
+Доступ к строке игрового поля по индексу. 
+
+Возвращает указатель на строку игрового поля.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em row} & Номер строки (0–3). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Указатель на массив из 4 элементов (строка поля). 
+\end{DoxyReturn}
+
+
+\label{doc-related-members}
+\Hypertarget{class_game_doc-related-members}
+\doxysubsection{Друзья класса и относящимся к классу обозначения}
+\Hypertarget{class_game_a449923b7a9dbce2dc6bce7e58e0c13e1}\index{Game@{Game}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily \label{class_game_a449923b7a9dbce2dc6bce7e58e0c13e1} 
+ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os}{, }\item[{const \mbox{\hyperlink{class_game}{Game}} \&}]{g}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Вывод игрового поля в поток. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em os} & Поток вывода. \\
+\hline
+{\em g} & Объект игры. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Ссылка на поток вывода. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Пятнашки/\mbox{\hyperlink{_header_8h}{Header.\+h}}\item 
+Пятнашки/\mbox{\hyperlink{tag_8cpp}{tag.\+cpp}}\end{DoxyCompactItemize}

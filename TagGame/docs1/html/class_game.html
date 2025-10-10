@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TagGame: Класс Game</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">TagGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_game.html','','class_game-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс Game</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс, реализующий игровую логику "Пятнашек".  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_header_8h_source.html">Header.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ad59df6562a58a614fda24622d3715b65" id="r_ad59df6562a58a614fda24622d3715b65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad59df6562a58a614fda24622d3715b65">Game</a> ()</td></tr>
+<tr class="memdesc:ad59df6562a58a614fda24622d3715b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор. Инициализирует и перемешивает игровое поле.  <br /></td></tr>
+<tr class="memitem:ae3d112ca6e0e55150d2fdbc704474530" id="r_ae3d112ca6e0e55150d2fdbc704474530"><td class="memItemLeft" align="right" valign="top"><a id="ae3d112ca6e0e55150d2fdbc704474530" name="ae3d112ca6e0e55150d2fdbc704474530"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~Game</b> ()</td></tr>
+<tr class="memdesc:ae3d112ca6e0e55150d2fdbc704474530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Деструктор (пустой, т.к. динамическая память не используется). <br /></td></tr>
+<tr class="memitem:a0295bc451b3ae1589778757386589475" id="r_a0295bc451b3ae1589778757386589475"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0295bc451b3ae1589778757386589475">GetEmptyRow</a> () const</td></tr>
+<tr class="memdesc:a0295bc451b3ae1589778757386589475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить индекс строки, где находится пустая клетка.  <br /></td></tr>
+<tr class="memitem:a4951035540df11910dc826c3c9f0a0b2" id="r_a4951035540df11910dc826c3c9f0a0b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4951035540df11910dc826c3c9f0a0b2">GetEmptyCol</a> () const</td></tr>
+<tr class="memdesc:a4951035540df11910dc826c3c9f0a0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить индекс столбца, где находится пустая клетка.  <br /></td></tr>
+<tr class="memitem:a49ded379e279ea868437560d8ac10fdb" id="r_a49ded379e279ea868437560d8ac10fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ded379e279ea868437560d8ac10fdb">fill</a> ()</td></tr>
+<tr class="memdesc:a49ded379e279ea868437560d8ac10fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Заполнить поле числами от 1 до 15 и одной пустой клеткой.  <br /></td></tr>
+<tr class="memitem:af53246b24f5febe8107deb5f5836b562" id="r_af53246b24f5febe8107deb5f5836b562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af53246b24f5febe8107deb5f5836b562">change</a> ()</td></tr>
+<tr class="memdesc:af53246b24f5febe8107deb5f5836b562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перемешать поле случайным образом до разрешимого состояния.  <br /></td></tr>
+<tr class="memitem:ac278ea9886fa6cd083ad2ea11759b1af" id="r_ac278ea9886fa6cd083ad2ea11759b1af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac278ea9886fa6cd083ad2ea11759b1af">move</a> (char direction)</td></tr>
+<tr class="memdesc:ac278ea9886fa6cd083ad2ea11759b1af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Совершить ход в указанном направлении.  <br /></td></tr>
+<tr class="memitem:a706e15068ecaa2f4e57004a5e3d4c56b" id="r_a706e15068ecaa2f4e57004a5e3d4c56b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706e15068ecaa2f4e57004a5e3d4c56b">isRight</a> () const</td></tr>
+<tr class="memdesc:a706e15068ecaa2f4e57004a5e3d4c56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверить, собрано ли поле в правильном порядке.  <br /></td></tr>
+<tr class="memitem:a57d183f86badf12d5c8267ca36e3185f" id="r_a57d183f86badf12d5c8267ca36e3185f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57d183f86badf12d5c8267ca36e3185f">isSolvable</a> (int arr[])</td></tr>
+<tr class="memdesc:a57d183f86badf12d5c8267ca36e3185f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверить, является ли текущее расположение решаемым.  <br /></td></tr>
+<tr class="memitem:a19148f612e5265472d6796ed58a3bfa6" id="r_a19148f612e5265472d6796ed58a3bfa6"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19148f612e5265472d6796ed58a3bfa6">operator[]</a> (int row)</td></tr>
+<tr class="memdesc:a19148f612e5265472d6796ed58a3bfa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступ к строке игрового поля по индексу.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+Друзья</h2></td></tr>
+<tr class="memitem:a449923b7a9dbce2dc6bce7e58e0c13e1" id="r_a449923b7a9dbce2dc6bce7e58e0c13e1"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449923b7a9dbce2dc6bce7e58e0c13e1">operator&lt;&lt;</a> (ostream &amp;os, const <a class="el" href="class_game.html">Game</a> &amp;g)</td></tr>
+<tr class="memdesc:a449923b7a9dbce2dc6bce7e58e0c13e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод игрового поля в поток.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс, реализующий игровую логику "Пятнашек". </p>
+<p>Класс управляет игровым полем, перемещением фишек, проверкой правильности расположения и случайным перемешиванием. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Конструктор(ы)</h2>
+<a id="ad59df6562a58a614fda24622d3715b65" name="ad59df6562a58a614fda24622d3715b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59df6562a58a614fda24622d3715b65">&#9670;&#160;</a></span>Game()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::Game </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор. Инициализирует и перемешивает игровое поле. </p>
+<p>Конструктор: создаёт поле и перемешивает его. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="af53246b24f5febe8107deb5f5836b562" name="af53246b24f5febe8107deb5f5836b562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53246b24f5febe8107deb5f5836b562">&#9670;&#160;</a></span>change()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::change </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Перемешать поле случайным образом до разрешимого состояния. </p>
+<p>Перемешивает поле случайным образом до тех пор, пока оно остаётся решаемым. </p>
+
+</div>
+</div>
+<a id="a49ded379e279ea868437560d8ac10fdb" name="a49ded379e279ea868437560d8ac10fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ded379e279ea868437560d8ac10fdb">&#9670;&#160;</a></span>fill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::fill </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Заполнить поле числами от 1 до 15 и одной пустой клеткой. </p>
+<p>Заполняет поле числами от 1 до 15, последняя клетка — пустая (0). </p>
+
+</div>
+</div>
+<a id="a4951035540df11910dc826c3c9f0a0b2" name="a4951035540df11910dc826c3c9f0a0b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4951035540df11910dc826c3c9f0a0b2">&#9670;&#160;</a></span>GetEmptyCol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Game::GetEmptyCol </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить индекс столбца, где находится пустая клетка. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Индекс столбца (0–3). </dd></dl>
+
+</div>
+</div>
+<a id="a0295bc451b3ae1589778757386589475" name="a0295bc451b3ae1589778757386589475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0295bc451b3ae1589778757386589475">&#9670;&#160;</a></span>GetEmptyRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Game::GetEmptyRow </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить индекс строки, где находится пустая клетка. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Индекс строки (0–3). </dd></dl>
+
+</div>
+</div>
+<a id="a706e15068ecaa2f4e57004a5e3d4c56b" name="a706e15068ecaa2f4e57004a5e3d4c56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a706e15068ecaa2f4e57004a5e3d4c56b">&#9670;&#160;</a></span>isRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::isRight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Проверить, собрано ли поле в правильном порядке. </p>
+<p>Проверяет, находится ли поле в собранном состоянии.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>true, если все числа стоят по порядку, иначе false. </dd></dl>
+
+</div>
+</div>
+<a id="a57d183f86badf12d5c8267ca36e3185f" name="a57d183f86badf12d5c8267ca36e3185f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d183f86badf12d5c8267ca36e3185f">&#9670;&#160;</a></span>isSolvable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::isSolvable </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arr</em></span>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Проверить, является ли текущее расположение решаемым. </p>
+<p>Проверяет, можно ли решить текущее расположение фишек.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>Массив из 16 элементов (игровое поле). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>true, если комбинация решаема.</dd></dl>
+<p>Алгоритм основан на подсчёте инверсий и положении пустой клетки. </p>
+
+</div>
+</div>
+<a id="ac278ea9886fa6cd083ad2ea11759b1af" name="ac278ea9886fa6cd083ad2ea11759b1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac278ea9886fa6cd083ad2ea11759b1af">&#9670;&#160;</a></span>move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::move </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Совершить ход в указанном направлении. </p>
+<p>Совершает ход в заданном направлении, если возможно.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">direction</td><td>Символ направления ('W', 'A', 'S', 'D' или их строчные аналоги). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>true, если ход был выполнен; false, если ход невозможен. </dd></dl>
+
+</div>
+</div>
+<a id="a19148f612e5265472d6796ed58a3bfa6" name="a19148f612e5265472d6796ed58a3bfa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19148f612e5265472d6796ed58a3bfa6">&#9670;&#160;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * Game::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>row</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Доступ к строке игрового поля по индексу. </p>
+<p>Возвращает указатель на строку игрового поля.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">row</td><td>Номер строки (0–3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на массив из 4 элементов (строка поля). </dd></dl>
+
+</div>
+</div>
+<a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">Друзья класса и относящимся к классу обозначения</h2>
+<a id="a449923b7a9dbce2dc6bce7e58e0c13e1" name="a449923b7a9dbce2dc6bce7e58e0c13e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449923b7a9dbce2dc6bce7e58e0c13e1">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>os</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_game.html">Game</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>g</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Вывод игрового поля в поток. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">os</td><td>Поток вывода. </td></tr>
+    <tr><td class="paramname">g</td><td>Объект игры. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Ссылка на поток вывода. </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>Пятнашки/<a class="el" href="_header_8h_source.html">Header.h</a></li>
+<li>Пятнашки/<a class="el" href="tag_8cpp.html">tag.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_game.html">Game</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>
