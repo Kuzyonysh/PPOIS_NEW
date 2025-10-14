@@ -99,7 +99,7 @@
   <ItemGroup>
     <ClCompile Include="..\Tag\tag.cpp" />
     <ClCompile Include="..\Tag\UI.cpp" />
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="GameTest.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="pch.cpp">
