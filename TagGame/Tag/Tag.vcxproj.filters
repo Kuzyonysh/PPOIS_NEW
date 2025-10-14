@@ -29,7 +29,10 @@
     <ClInclude Include="..\GameTest\pch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="Tag.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

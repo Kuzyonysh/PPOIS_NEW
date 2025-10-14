@@ -1,5 +1,6 @@
 
-#include "D:\Projects\TagGame\Tag\Header.h"
+#include "D:\Projects\TagGame\Tag\Tag.h"
+#include "D:\Projects\TagGame\Tag\UI.h"
 #include <gtest/gtest.h>
 
 

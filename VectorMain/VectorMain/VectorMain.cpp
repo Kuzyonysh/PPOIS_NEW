@@ -3,7 +3,7 @@
  * @brief Реализация методов класса Vector
  */
 
-#include "Header.h"
+#include "Vector.h"
 #include <cmath>
 
 Vector::Vector(int x, int y, int z) :x(x), y(y), z(z) {}

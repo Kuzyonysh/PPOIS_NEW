@@ -3,8 +3,8 @@
  * @brief Консольная программа для работы с классом Vector
  */
 
-#include "Header.h"
-
+#include "Vector.h"
+#include "UI.h"
 int main() {
     UI(std::cin, std::cout);
     return 0;

@@ -1,8 +1,9 @@
 
-#include "Header.h"
+#include "Vector.h"
+#include "UI.h"
 #include <iostream>
 
-void UI(std::istream& in, std::ostream& out) {
+void UI(istream& in, ostream& out) {
     setlocale(LC_ALL, "ru");
     Vector a, b;
     out << "¬ведите вектор a: "; in >> a;
