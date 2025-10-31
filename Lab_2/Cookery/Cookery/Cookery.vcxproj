@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6040fd89-5b07-4053-9f73-72c57a78ab35}</ProjectGuid>
+    <RootNamespace>Cookery</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Category.cpp" />
+    <ClCompile Include="ConsoleCategoryPrinter.cpp" />
+    <ClCompile Include="ConsoleCookPrinter.cpp" />
+    <ClCompile Include="ConsoleCustomerPrinter.cpp" />
+    <ClCompile Include="ConsoleDeliveryPrinter.cpp" />
+    <ClCompile Include="ConsoleDishPrinter.cpp" />
+    <ClCompile Include="ConsoleFridgePrinter.cpp" />
+    <ClCompile Include="ConsoleIngredientPrinter.cpp" />
+    <ClCompile Include="ConsoleKitchenPrinter.cpp" />
+    <ClCompile Include="ConsoleMenuPrinter.cpp" />
+    <ClCompile Include="ConsoleOrderPrinter.cpp" />
+    <ClCompile Include="ConsoleOvenPrinter.cpp" />
+    <ClCompile Include="ConsolePaymentPrinter.cpp" />
+    <ClCompile Include="ConsolePranPrinter.cpp" />
+    <ClCompile Include="ConsolePrinterStep.cpp" />
+    <ClCompile Include="ConsolePrinterTemperatureSensor.cpp" />
+    <ClCompile Include="ConsolerecipePrinter.cpp" />
+    <ClCompile Include="ConsoleTimerPrinter.cpp" />
+    <ClCompile Include="ConsoleToolPrintercpp.cpp" />
+    <ClCompile Include="Cook.cpp" />
+    <ClCompile Include="CookManager.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Delivery.cpp" />
+    <ClCompile Include="DeliveryCalculator.cpp" />
+    <ClCompile Include="Dish.cpp" />
+    <ClCompile Include="DishManager.cpp" />
+    <ClCompile Include="Fridge.cpp" />
+    <ClCompile Include="FridgeManager.cpp" />
+    <ClCompile Include="Ingredient.cpp" />
+    <ClCompile Include="IngredientManager.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryManager.cpp" />
+    <ClCompile Include="InventoryPrinter.cpp" />
+    <ClCompile Include="Kitchencpp.cpp" />
+    <ClCompile Include="KitchenManager.cpp" />
+    <ClCompile Include="MakeOrder.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrderManager.cpp" />
+    <ClCompile Include="Oven.cpp" />
+    <ClCompile Include="OvenManager.cpp" />
+    <ClCompile Include="Pan.cpp" />
+    <ClCompile Include="PanManager.cpp" />
+    <ClCompile Include="Payment.cpp" />
+    <ClCompile Include="PaymentManager.cpp" />
+    <ClCompile Include="Recipe.cpp" />
+    <ClCompile Include="RecipeManager.cpp" />
+    <ClCompile Include="RecipeSteps.cpp" />
+    <ClCompile Include="Reservation.cpp" />
+    <ClCompile Include="ReservationManager.cpp" />
+    <ClCompile Include="Review.cpp" />
+    <ClCompile Include="ReviewManager.cpp" />
+    <ClCompile Include="Step.cpp" />
+    <ClCompile Include="TemperatureController.cpp" />
+    <ClCompile Include="TemperatureSensor.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimerController.cpp" />
+    <ClCompile Include="Tool.cpp" />
+    <ClCompile Include="ToolManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Category.h" />
+    <ClInclude Include="ConsoleCategoryPrinter.h" />
+    <ClInclude Include="ConsoleCookPrinter.h" />
+    <ClInclude Include="ConsoleCustomerPrinter.h" />
+    <ClInclude Include="ConsoleDeliveryPrinter.h" />
+    <ClInclude Include="ConsoleDishPrinter.h" />
+    <ClInclude Include="ConsoleFridgePrinter.h" />
+    <ClInclude Include="ConsoleIngredientPrinter.h" />
+    <ClInclude Include="ConsoleKitchenPrinter.h" />
+    <ClInclude Include="ConsoleMenuPrinter.h" />
+    <ClInclude Include="ConsoleOrderPrinter.h" />
+    <ClInclude Include="ConsoleOvenPrinter.h" />
+    <ClInclude Include="ConsolePanPrinter.h" />
+    <ClInclude Include="ConsolePaymentPrinter.h" />
+    <ClInclude Include="ConsolePrinterStep.h" />
+    <ClInclude Include="ConsolePrinterTemperatureSensor.h" />
+    <ClInclude Include="ConsoleRecipePrinter.h" />
+    <ClInclude Include="ConsoleTimerPrinter.h" />
+    <ClInclude Include="ConsoleToolPrinter.h" />
+    <ClInclude Include="Cook.h" />
+    <ClInclude Include="CookManager.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Delivery.h" />
+    <ClInclude Include="DeliveryCalculator.h" />
+    <ClInclude Include="Dish.h" />
+    <ClInclude Include="DishManager.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Fridge.h" />
+    <ClInclude Include="FridgeManager.h" />
+    <ClInclude Include="ICategory.h" />
+    <ClInclude Include="ICook.h" />
+    <ClInclude Include="ICustomer.h" />
+    <ClInclude Include="IDelivery.h" />
+    <ClInclude Include="IDish.h" />
+    <ClInclude Include="IFridge.h" />
+    <ClInclude Include="IInventory.h" />
+    <ClInclude Include="IKitchen.h" />
+    <ClInclude Include="Ingredient.h" />
+    <ClInclude Include="IngredientManager.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryManager.h" />
+    <ClInclude Include="InventoryPrinter.h" />
+    <ClInclude Include="IOrder.h" />
+    <ClInclude Include="IPan.h" />
+    <ClInclude Include="IPayment.h" />
+    <ClInclude Include="IRecipe.h" />
+    <ClInclude Include="IReservation.h" />
+    <ClInclude Include="IReview.h" />
+    <ClInclude Include="IStep.h" />
+    <ClInclude Include="ITemperatureSensor.h" />
+    <ClInclude Include="ITimer.h" />
+    <ClInclude Include="ITool.h" />
+    <ClInclude Include="Kitchen.h" />
+    <ClInclude Include="KitchenManager.h" />
+    <ClInclude Include="MakeOrder.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="OrderManager.h" />
+    <ClInclude Include="Oven.h" />
+    <ClInclude Include="OvenManager.h" />
+    <ClInclude Include="Pan.h" />
+    <ClInclude Include="PanManager.h" />
+    <ClInclude Include="Payment.h" />
+    <ClInclude Include="PaymentManager.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="Recipe.h" />
+    <ClInclude Include="RecipeManager.h" />
+    <ClInclude Include="RecipeSteps.h" />
+    <ClInclude Include="Reservation.h" />
+    <ClInclude Include="ReservationManager.h" />
+    <ClInclude Include="Review.h" />
+    <ClInclude Include="ReviewManager.h" />
+    <ClInclude Include="Step.h" />
+    <ClInclude Include="TemperatureController.h" />
+    <ClInclude Include="TemperatureSensor.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimerController.h" />
+    <ClInclude Include="Tool.h" />
+    <ClInclude Include="ToolManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Ingredient">
+      <UniqueIdentifier>{e2eaff4e-9565-425b-afff-0ece67e2ee19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Dish">
+      <UniqueIdentifier>{87a4e2c9-277f-432e-8bdd-340c776b086f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Recipe">
+      <UniqueIdentifier>{07331c3b-bc7d-4437-8ea1-1b4327cbfa88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Ingredient">
+      <UniqueIdentifier>{ee98e56a-81bb-4718-9a1c-a4d0a59318d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Printer">
+      <UniqueIdentifier>{4047a2e6-9f4b-4009-bb56-8e88c13be276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Dish">
+      <UniqueIdentifier>{def4530b-e47e-485e-b5cd-b86e3a65e766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Exception">
+      <UniqueIdentifier>{4a49341b-1613-4e57-b8fd-3cd3f5b2b5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Recipe">
+      <UniqueIdentifier>{4365bd38-5825-46ee-9a1f-e9702b049904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Cook">
+      <UniqueIdentifier>{1df3c517-9e00-43c6-9bd7-69994c25e2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Cook">
+      <UniqueIdentifier>{5d5a6732-12ef-4dde-8a96-c5b55abf4454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tool">
+      <UniqueIdentifier>{c26da54a-10c1-44bf-894b-494203f39854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Tool">
+      <UniqueIdentifier>{d336fa9b-57dd-46c0-a09d-f14e9ec1796a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Oven">
+      <UniqueIdentifier>{53b84863-9895-4c72-b69a-3c22d102009d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Oven">
+      <UniqueIdentifier>{6c65faf8-e4d7-40e6-bc29-0cb5d33bf98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Pan">
+      <UniqueIdentifier>{8111572e-4a34-43ba-a1d8-55bebab1717a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Pan">
+      <UniqueIdentifier>{834445c6-4561-44ec-a92c-986aa8ab9bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Kitchen">
+      <UniqueIdentifier>{78c25bd8-443a-4405-9801-0a6da524e814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Kitchen">
+      <UniqueIdentifier>{a413ff0a-e53f-48a2-a52b-a2310eed697c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Fridge">
+      <UniqueIdentifier>{3883ea51-fe7c-42cc-9422-9baabebec204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fridge">
+      <UniqueIdentifier>{48cc984c-ca59-454a-95d4-ecce2ce54885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Customer">
+      <UniqueIdentifier>{454ffe7d-9b28-40e7-afc4-5964ab740b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Customer">
+      <UniqueIdentifier>{e19adea2-f81f-4403-a07e-095265061fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Menu">
+      <UniqueIdentifier>{43a1f41a-fbde-4ce1-b2ab-697f853628db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Menu">
+      <UniqueIdentifier>{9b4adeae-225a-4b02-a300-fc8022563ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Order">
+      <UniqueIdentifier>{51fd26ff-aa88-4c4c-8ab1-aca1c9ccaeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Order">
+      <UniqueIdentifier>{57d40e62-dbfd-461b-83d5-f3cb730175af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Step">
+      <UniqueIdentifier>{3f0ca59a-c410-4816-871c-c242dbb98b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Step">
+      <UniqueIdentifier>{e3b33755-2b1d-417e-b8b4-9b9c1454c844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Timer">
+      <UniqueIdentifier>{9eb89e98-2544-410c-a6f1-f765169f881f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Timer">
+      <UniqueIdentifier>{21f1ad48-39a3-41a4-9954-9e309d12591d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\TemperatureSensor">
+      <UniqueIdentifier>{bad92186-54eb-4596-846a-c9cd1b5b65e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\TemperatureSensor">
+      <UniqueIdentifier>{811d2b74-2dce-4276-8230-0fcea138e804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Inventory">
+      <UniqueIdentifier>{b6f203d2-dda8-46c6-baa4-13954caa0567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Inventory">
+      <UniqueIdentifier>{3122d9f5-4723-43b5-aa15-cf50f8f7bde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Delivery">
+      <UniqueIdentifier>{2a068b0a-c28a-408b-a5df-cf9c64b97b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Delivery">
+      <UniqueIdentifier>{92f79440-b150-41f1-aa52-4a998f05dfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Review">
+      <UniqueIdentifier>{d4c626e8-7f5a-4f57-977f-5e181cf4a511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Review">
+      <UniqueIdentifier>{0005c0a5-f6a9-4766-8421-5646fd3b33c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Reservation">
+      <UniqueIdentifier>{21ba496d-d319-4703-9a7c-239c43df2a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Reservation">
+      <UniqueIdentifier>{62119374-21b4-4c80-8f2a-7f9b6f7742df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Payment">
+      <UniqueIdentifier>{31f54230-73ca-4990-a110-dc5fc1576000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Payment">
+      <UniqueIdentifier>{2d7f8535-87dc-4555-ba3d-12f958151110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Category">
+      <UniqueIdentifier>{fefd7e35-0f11-4321-b9a3-b9ae5435e4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Category">
+      <UniqueIdentifier>{d1b1b05a-2996-42b6-8b7d-8ccd83537df8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ingredient.cpp">
+      <Filter>Исходные файлы\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="IngredientManager.cpp">
+      <Filter>Исходные файлы\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleIngredientPrinter.cpp">
+      <Filter>Исходные файлы\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Dish.cpp">
+      <Filter>Исходные файлы\Dish</Filter>
+    </ClCompile>
+    <ClCompile Include="DishManager.cpp">
+      <Filter>Исходные файлы\Dish</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleDishPrinter.cpp">
+      <Filter>Исходные файлы\Dish</Filter>
+    </ClCompile>
+    <ClCompile Include="RecipeManager.cpp">
+      <Filter>Исходные файлы\Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Recipe.cpp">
+      <Filter>Исходные файлы\Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolerecipePrinter.cpp">
+      <Filter>Исходные файлы\Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Cook.cpp">
+      <Filter>Исходные файлы\Cook</Filter>
+    </ClCompile>
+    <ClCompile Include="CookManager.cpp">
+      <Filter>Исходные файлы\Cook</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCookPrinter.cpp">
+      <Filter>Исходные файлы\Cook</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleToolPrintercpp.cpp">
+      <Filter>Исходные файлы\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolManager.cpp">
+      <Filter>Исходные файлы\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>Исходные файлы\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Oven.cpp">
+      <Filter>Исходные файлы\Oven</Filter>
+    </ClCompile>
+    <ClCompile Include="OvenManager.cpp">
+      <Filter>Исходные файлы\Oven</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOvenPrinter.cpp">
+      <Filter>Исходные файлы\Oven</Filter>
+    </ClCompile>
+    <ClCompile Include="PanManager.cpp">
+      <Filter>Исходные файлы\Pan</Filter>
+    </ClCompile>
+    <ClCompile Include="Pan.cpp">
+      <Filter>Исходные файлы\Pan</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePranPrinter.cpp">
+      <Filter>Исходные файлы\Pan</Filter>
+    </ClCompile>
+    <ClCompile Include="Kitchencpp.cpp">
+      <Filter>Исходные файлы\Kitchen</Filter>
+    </ClCompile>
+    <ClCompile Include="KitchenManager.cpp">
+      <Filter>Исходные файлы\Kitchen</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleKitchenPrinter.cpp">
+      <Filter>Исходные файлы\Kitchen</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleFridgePrinter.cpp">
+      <Filter>Исходные файлы\Fridge</Filter>
+    </ClCompile>
+    <ClCompile Include="FridgeManager.cpp">
+      <Filter>Исходные файлы\Fridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Fridge.cpp">
+      <Filter>Исходные файлы\Fridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Исходные файлы\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder.cpp">
+      <Filter>Исходные файлы\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCustomerPrinter.cpp">
+      <Filter>Исходные файлы\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleMenuPrinter.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Исходные файлы\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderManager.cpp">
+      <Filter>Исходные файлы\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOrderPrinter.cpp">
+      <Filter>Исходные файлы\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrinterStep.cpp">
+      <Filter>Исходные файлы\Step</Filter>
+    </ClCompile>
+    <ClCompile Include="RecipeSteps.cpp">
+      <Filter>Исходные файлы\Step</Filter>
+    </ClCompile>
+    <ClCompile Include="Step.cpp">
+      <Filter>Исходные файлы\Step</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Исходные файлы\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerController.cpp">
+      <Filter>Исходные файлы\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTimerPrinter.cpp">
+      <Filter>Исходные файлы\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperatureSensor.cpp">
+      <Filter>Исходные файлы\TemperatureSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperatureController.cpp">
+      <Filter>Исходные файлы\TemperatureSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrinterTemperatureSensor.cpp">
+      <Filter>Исходные файлы\TemperatureSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Исходные файлы\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryManager.cpp">
+      <Filter>Исходные файлы\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryPrinter.cpp">
+      <Filter>Исходные файлы\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Delivery.cpp">
+      <Filter>Исходные файлы\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="DeliveryCalculator.cpp">
+      <Filter>Исходные файлы\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleDeliveryPrinter.cpp">
+      <Filter>Исходные файлы\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="Review.cpp">
+      <Filter>Исходные файлы\Review</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewManager.cpp">
+      <Filter>Исходные файлы\Review</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation.cpp">
+      <Filter>Исходные файлы\Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationManager.cpp">
+      <Filter>Исходные файлы\Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Payment.cpp">
+      <Filter>Исходные файлы\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="PaymentManager.cpp">
+      <Filter>Исходные файлы\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePaymentPrinter.cpp">
+      <Filter>Исходные файлы\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="Category.cpp">
+      <Filter>Исходные файлы\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCategoryPrinter.cpp">
+      <Filter>Исходные файлы\Category</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IngredientManager.h">
+      <Filter>Файлы заголовков\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingredient.h">
+      <Filter>Файлы заголовков\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Файлы заголовков\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="IDish.h">
+      <Filter>Файлы заголовков\Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="DishManager.h">
+      <Filter>Файлы заголовков\Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleDishPrinter.h">
+      <Filter>Файлы заголовков\Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleIngredientPrinter.h">
+      <Filter>Файлы заголовков\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Dish.h">
+      <Filter>Файлы заголовков\Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Файлы заголовков\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="IRecipe.h">
+      <Filter>Файлы заголовков\Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Recipe.h">
+      <Filter>Файлы заголовков\Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleRecipePrinter.h">
+      <Filter>Файлы заголовков\Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="RecipeManager.h">
+      <Filter>Файлы заголовков\Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="ICook.h">
+      <Filter>Файлы заголовков\Cook</Filter>
+    </ClInclude>
+    <ClInclude Include="Cook.h">
+      <Filter>Файлы заголовков\Cook</Filter>
+    </ClInclude>
+    <ClInclude Include="CookManager.h">
+      <Filter>Файлы заголовков\Cook</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCookPrinter.h">
+      <Filter>Файлы заголовков\Cook</Filter>
+    </ClInclude>
+    <ClInclude Include="ITool.h">
+      <Filter>Файлы заголовков\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>Файлы заголовков\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolManager.h">
+      <Filter>Файлы заголовков\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleToolPrinter.h">
+      <Filter>Файлы заголовков\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Oven.h">
+      <Filter>Файлы заголовков\Oven</Filter>
+    </ClInclude>
+    <ClInclude Include="OvenManager.h">
+      <Filter>Файлы заголовков\Oven</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOvenPrinter.h">
+      <Filter>Файлы заголовков\Oven</Filter>
+    </ClInclude>
+    <ClInclude Include="IPan.h">
+      <Filter>Файлы заголовков\Pan</Filter>
+    </ClInclude>
+    <ClInclude Include="Pan.h">
+      <Filter>Файлы заголовков\Pan</Filter>
+    </ClInclude>
+    <ClInclude Include="PanManager.h">
+      <Filter>Файлы заголовков\Pan</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePanPrinter.h">
+      <Filter>Файлы заголовков\Pan</Filter>
+    </ClInclude>
+    <ClInclude Include="IKitchen.h">
+      <Filter>Файлы заголовков\Kitchen</Filter>
+    </ClInclude>
+    <ClInclude Include="Kitchen.h">
+      <Filter>Файлы заголовков\Kitchen</Filter>
+    </ClInclude>
+    <ClInclude Include="KitchenManager.h">
+      <Filter>Файлы заголовков\Kitchen</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleKitchenPrinter.h">
+      <Filter>Файлы заголовков\Kitchen</Filter>
+    </ClInclude>
+    <ClInclude Include="IFridge.h">
+      <Filter>Файлы заголовков\Fridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Fridge.h">
+      <Filter>Файлы заголовков\Fridge</Filter>
+    </ClInclude>
+    <ClInclude Include="FridgeManager.h">
+      <Filter>Файлы заголовков\Fridge</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleFridgePrinter.h">
+      <Filter>Файлы заголовков\Fridge</Filter>
+    </ClInclude>
+    <ClInclude Include="ICustomer.h">
+      <Filter>Файлы заголовков\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Файлы заголовков\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder.h">
+      <Filter>Файлы заголовков\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCustomerPrinter.h">
+      <Filter>Файлы заголовков\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleMenuPrinter.h">
+      <Filter>Файлы заголовков\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="IOrder.h">
+      <Filter>Файлы заголовков\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Файлы заголовков\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderManager.h">
+      <Filter>Файлы заголовков\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOrderPrinter.h">
+      <Filter>Файлы заголовков\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="IStep.h">
+      <Filter>Файлы заголовков\Step</Filter>
+    </ClInclude>
+    <ClInclude Include="Step.h">
+      <Filter>Файлы заголовков\Step</Filter>
+    </ClInclude>
+    <ClInclude Include="RecipeSteps.h">
+      <Filter>Файлы заголовков\Step</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrinterStep.h">
+      <Filter>Файлы заголовков\Step</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimer.h">
+      <Filter>Файлы заголовков\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Файлы заголовков\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerController.h">
+      <Filter>Файлы заголовков\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleTimerPrinter.h">
+      <Filter>Файлы заголовков\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ITemperatureSensor.h">
+      <Filter>Файлы заголовков\TemperatureSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureSensor.h">
+      <Filter>Файлы заголовков\TemperatureSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureController.h">
+      <Filter>Файлы заголовков\TemperatureSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrinterTemperatureSensor.h">
+      <Filter>Файлы заголовков\TemperatureSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="IInventory.h">
+      <Filter>Файлы заголовков\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Файлы заголовков\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>Файлы заголовков\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryPrinter.h">
+      <Filter>Файлы заголовков\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="IDelivery.h">
+      <Filter>Файлы заголовков\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="Delivery.h">
+      <Filter>Файлы заголовков\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryCalculator.h">
+      <Filter>Файлы заголовков\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleDeliveryPrinter.h">
+      <Filter>Файлы заголовков\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="IReview.h">
+      <Filter>Файлы заголовков\Review</Filter>
+    </ClInclude>
+    <ClInclude Include="Review.h">
+      <Filter>Файлы заголовков\Review</Filter>
+    </ClInclude>
+    <ClInclude Include="ReviewManager.h">
+      <Filter>Файлы заголовков\Review</Filter>
+    </ClInclude>
+    <ClInclude Include="IReservation.h">
+      <Filter>Файлы заголовков\Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.h">
+      <Filter>Файлы заголовков\Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationManager.h">
+      <Filter>Файлы заголовков\Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="IPayment.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentManager.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePaymentPrinter.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="ICategory.h">
+      <Filter>Файлы заголовков\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>Файлы заголовков\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCategoryPrinter.h">
+      <Filter>Файлы заголовков\Category</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
