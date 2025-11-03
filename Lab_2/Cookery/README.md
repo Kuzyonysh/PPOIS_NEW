@@ -1,9 +1,9 @@
 # README: Предметная область Кулинария (Cookery)
 
-- Классы: 64
-- Поля: 215
+- Классы: 61
+- Поля: 161
 - Уникальные поведения: 105
-- Ассоциации: 42
+- Ассоциации: 79
 - Исключения: 13
 
 ## Исключения (13)
@@ -143,7 +143,7 @@ OrderManager 0 8 → Oven
 
 ConsoleOrderPrinter 0 1 → Oven
 - Методы: print
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  
+
 Pan 8 16 → IPan
 - Поля: material, diameter, state, depth, hasLid, temperature, weight, brand
 - Методы: getMaterial, getDiameter, getState, getDepth, getHasLid, getTemperature, getWeight, getBrand, setMaterial, setDiameter, setState, setDepth, setHasLid, setTemperature, setWeight, setBrand
@@ -237,4 +237,5 @@ ToolManager 0 3 → ITool
 ConsoleToolPrinter 0 1 → Tool
 - Методы: print
 
+**Примечание:** Есть 1 шаблонный абстрактный класс Printer, 18 интерфейсов 
 
