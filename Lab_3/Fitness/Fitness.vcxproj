@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Appointment.cpp" />
+    <ClCompile Include="AppointmentManager.cpp" />
+    <ClCompile Include="BodyMetrics.cpp" />
+    <ClCompile Include="BodyMetricsManager.cpp" />
+    <ClCompile Include="Challenge.cpp" />
+    <ClCompile Include="DailyPlan.cpp" />
+    <ClCompile Include="DailyPlanManager.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="FitnessTracker.cpp" />
+    <ClCompile Include="FitnessTrackerService.cpp" />
+    <ClCompile Include="FoodPrinter.cpp" />
+    <ClCompile Include="FoodProduct.cpp" />
+    <ClCompile Include="FoodProductManager.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="GoalManager.cpp" />
+    <ClCompile Include="HealthReport.cpp" />
+    <ClCompile Include="HealthReportManager.cpp" />
+    <ClCompile Include="MealRecord.cpp" />
+    <ClCompile Include="MealRecordManager.cpp" />
+    <ClCompile Include="Medication.cpp" />
+    <ClCompile Include="MedicationManager.cpp" />
+    <ClCompile Include="Membership.cpp" />
+    <ClCompile Include="MembershipManager.cpp" />
+    <ClCompile Include="MentalHealthManager.cpp" />
+    <ClCompile Include="MoodRecord.cpp" />
+    <ClCompile Include="PrinterAppointment.cpp" />
+    <ClCompile Include="PrinterBodyMetrics.cpp" />
+    <ClCompile Include="PrinterChallenge.cpp" />
+    <ClCompile Include="PrinterDailyPlan.cpp" />
+    <ClCompile Include="PrinterEquipment.cpp" />
+    <ClCompile Include="PrinterFitnessTracker.cpp" />
+    <ClCompile Include="PrinterGoal.cpp" />
+    <ClCompile Include="PrinterHealthReport.cpp" />
+    <ClCompile Include="PrinterMeal.cpp" />
+    <ClCompile Include="PrinterMedication.cpp" />
+    <ClCompile Include="PrinterMembership.cpp" />
+    <ClCompile Include="PrinterMentalHealth.cpp" />
+    <ClCompile Include="PrinterSleep.cpp" />
+    <ClCompile Include="PrinterTrainer.cpp" />
+    <ClCompile Include="PrinterUser.cpp" />
+    <ClCompile Include="PrinterWater.cpp" />
+    <ClCompile Include="PrinterWorkout.cpp" />
+    <ClCompile Include="SleepManager.cpp" />
+    <ClCompile Include="SleepRecord.cpp" />
+    <ClCompile Include="Trainer.cpp" />
+    <ClCompile Include="TrainerManager.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="WaterIntake.cpp" />
+    <ClCompile Include="WaterIntakeManager.cpp" />
+    <ClCompile Include="WorkoutSession.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Appointment.h" />
+    <ClInclude Include="AppointmentManager.h" />
+    <ClInclude Include="BodyMetrics.h" />
+    <ClInclude Include="BodyMetricsManager.h" />
+    <ClInclude Include="Challenge.h" />
+    <ClInclude Include="DailyPlan.h" />
+    <ClInclude Include="DailyPlanManager.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="FitnessTracker.h" />
+    <ClInclude Include="FitnessTrackerService.h" />
+    <ClInclude Include="FoodPrinter.h" />
+    <ClInclude Include="FoodProduct.h" />
+    <ClInclude Include="FoodProductManager.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="GoalManager.h" />
+    <ClInclude Include="HealthReport.h" />
+    <ClInclude Include="HealthReportManager.h" />
+    <ClInclude Include="IFitnessTracker.h" />
+    <ClInclude Include="INutrition.h" />
+    <ClInclude Include="ITrainer.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="MealRecord.h" />
+    <ClInclude Include="MealRecordManager.h" />
+    <ClInclude Include="Medication.h" />
+    <ClInclude Include="MedicationManager.h" />
+    <ClInclude Include="Membership.h" />
+    <ClInclude Include="MembershipManager.h" />
+    <ClInclude Include="MentalHealthManager.h" />
+    <ClInclude Include="MoodRecord.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="PrinterAppointment.h" />
+    <ClInclude Include="PrinterBodyMetrics.h" />
+    <ClInclude Include="PrinterChallenge.h" />
+    <ClInclude Include="PrinterDailyPlan.h" />
+    <ClInclude Include="PrinterEquipment.h" />
+    <ClInclude Include="PrinterFitnessTracker.h" />
+    <ClInclude Include="PrinterGoal.h" />
+    <ClInclude Include="PrinterHealthReport.h" />
+    <ClInclude Include="PrinterMeal.h" />
+    <ClInclude Include="PrinterMedication.h" />
+    <ClInclude Include="PrinterMembership.h" />
+    <ClInclude Include="PrinterMentalHealth.h" />
+    <ClInclude Include="PrinterSleep.h" />
+    <ClInclude Include="PrinterTrainer.h" />
+    <ClInclude Include="PrinterUser.h" />
+    <ClInclude Include="PrinterWater.h" />
+    <ClInclude Include="PrinterWorkout.h" />
+    <ClInclude Include="SleepManager.h" />
+    <ClInclude Include="SleepRecord.h" />
+    <ClInclude Include="Trainer.h" />
+    <ClInclude Include="TrainerManager.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="WaterIntake.h" />
+    <ClInclude Include="WaterIntakeManager.h" />
+    <ClInclude Include="WorkoutSession.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7dced1fd-12bd-4b39-a68d-3f121269b5b5}</ProjectGuid>
+    <RootNamespace>Fitness</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Fitness</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
